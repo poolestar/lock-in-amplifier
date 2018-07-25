@@ -16,7 +16,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="LIA Configure Digital PLL.vi" Type="VI" URL="../examples/subvis/LIA Configure Digital PLL.vi"/>
 			<Item Name="LIA Custom Digital PLL.vi" Type="VI" URL="../examples/subvis/LIA Custom Digital PLL.vi"/>
-			<Item Name="LIA Read AI and VCO Samples.vi" Type="VI" URL="../examples/SubVIs/LIA Read AI and VCO Samples.vi"/>
+			<Item Name="LIA Read AI and VCO Samples.vi" Type="VI" URL="../examples/subvis/LIA Read AI and VCO Samples.vi"/>
 			<Item Name="LIA Read DMAs.vi" Type="VI" URL="../examples/SubVIs/LIA Read DMAs.vi"/>
 			<Item Name="LIA Set PLL Configs.vi" Type="VI" URL="../examples/subvis/LIA Set PLL Configs.vi"/>
 		</Item>
@@ -4621,6 +4621,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="LIA Fgen Arbitrary Waveform (Dual Channel).vi" Type="VI" URL="../examples/LIA Fgen Arbitrary Waveform (Dual Channel).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -4767,6 +4768,20 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="niTClk Initiate.vi" Type="VI" URL="/&lt;instrlib&gt;/niTClk/niTClk.llb/niTClk Initiate.vi"/>
 				<Item Name="niTClk Synchronize.vi" Type="VI" URL="/&lt;instrlib&gt;/niTClk/niTClk.llb/niTClk Synchronize.vi"/>
 				<Item Name="niTClk Configure For Homogeneous Triggers.vi" Type="VI" URL="/&lt;instrlib&gt;/niTClk/niTClk.llb/niTClk Configure For Homogeneous Triggers.vi"/>
+				<Item Name="niFgen Configure Reference Clock.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Reference Clock.vi"/>
+				<Item Name="niFgen Set Sample Rate.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Set Sample Rate.vi"/>
+				<Item Name="niFgen Write Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Waveform.vi"/>
+				<Item Name="niFgen Write Waveform (Complex DBL).vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Waveform (Complex DBL).vi"/>
+				<Item Name="niFgen Write Complex WDT Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Complex WDT Waveform.vi"/>
+				<Item Name="niFgen Write Waveform I16 Direct DMA.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Waveform I16 Direct DMA.vi"/>
+				<Item Name="niFgen Write WDT Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write WDT Waveform.vi"/>
+				<Item Name="niFgen Write Binary 16 Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Binary 16 Waveform.vi"/>
+				<Item Name="niFgen Write Waveform (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Waveform (poly).vi"/>
+				<Item Name="niFgen Allocate Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Allocate Waveform.vi"/>
+				<Item Name="niFgen_ctl Sample Clock Source Values (Ring).ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen_ctl Sample Clock Source Values (Ring).ctl"/>
+				<Item Name="niFgen Configure Sample Clock Source.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Sample Clock Source.vi"/>
+				<Item Name="niFgen Clear Arbitrary Memory.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Clear Arbitrary Memory.vi"/>
+				<Item Name="niFgen Util Create Waveform Data.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Util Create Waveform Data.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niFgen_32.dll" Type="Document" URL="niFgen_32.dll">
