@@ -1,0 +1,5 @@
+VHDL xbip_utils_v3_0_5 "<DIR>/xbip_utils_v3_0_5/hdl/xbip_utils_v3_0_vh_rfs.vhd"
+VHDL axi_utils_v2_0_1 "<DIR>/axi_utils_v2_0_1/hdl/axi_utils_v2_0_vh_rfs.vhd"
+VHDL cic_compiler_v4_0_9 "<DIR>/cic_compiler_v4_0_9/hdl/cic_compiler_v4_0_vh_rfs.vhd"
+VHDL cic_compiler_v4_0_9 "<DIR>/cic_compiler_v4_0_9/hdl/cic_compiler_v4_0.vhd"
+VHDL xil_defaultlib "<DIR>/sim/CIC_Compiler_46A5B37C04AB4F31B6372087A31BC6A8.vhd"
