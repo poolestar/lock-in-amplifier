@@ -4580,8 +4580,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="LIA Custom Digital PLL.vi" Type="VI" URL="../examples/subvis/LIA Custom Digital PLL.vi"/>
-				<Item Name="xsimk_46A5B37C04AB4F31B6372087A31BC6A8.dll" Type="Document" URL="../lib/fpga/Public/CIC FXPi18x1/CIC Compiler/xsim.dir/CIC_Compiler_46A5B37C04AB4F31B6372087A31BC6A8/xsimk_46A5B37C04AB4F31B6372087A31BC6A8.dll"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="LIA Example FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -4624,6 +4622,8 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="LIA Substracter.vi" Type="VI" URL="../examples/LIA Substracter.vi"/>
+		<Item Name="LIA FFT Refreseher.vi" Type="VI" URL="../examples/LIA FFT Refreseher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -4793,9 +4793,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nistreaming.dll" Type="Document" URL="/&lt;resource&gt;/nistreaming.dll"/>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="LIA 7935 5783.lvbitx" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/targets/7935/bitfiles/LIA 7935 5783.lvbitx"/>
 			<Item Name="LIAExample7976R5_FPGATarget_LIAExampleFPGA_n2nR4XdjtXU.lvbitx" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/targets/7976/FPGA Bitfiles/LIAExample7976R5_FPGATarget_LIAExampleFPGA_n2nR4XdjtXU.lvbitx"/>
 			<Item Name="Clock Select.ctl" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/Controls/Clock Select.ctl"/>
@@ -4806,6 +4803,9 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="Scale Acquired Data NI 5783.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Scale Acquired Data NI 5783.vi"/>
 			<Item Name="ADCSamples_FPGATarget_NI5783-GettingSt_O3Cot-WQFrs.lvbitx" Type="Document" URL="../NI 5783 Getting Started/FPGA Bitfiles/ADCSamples_FPGATarget_NI5783-GettingSt_O3Cot-WQFrs.lvbitx"/>
 			<Item Name="niTClk.dll" Type="Document" URL="niTClk.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
