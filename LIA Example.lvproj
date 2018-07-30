@@ -30,6 +30,8 @@
 		<Item Name="LIA Fgen Function Generator.vi" Type="VI" URL="../examples/LIA Fgen Function Generator.vi"/>
 		<Item Name="LIA PLL Simulation.vi" Type="VI" URL="../examples/LIA PLL Simulation.vi"/>
 		<Item Name="LIA NI 5783 Write to TDMS.vi" Type="VI" URL="../examples/LIA NI 5783 Write to TDMS.vi"/>
+		<Item Name="LIA Substracter.vi" Type="VI" URL="../examples/LIA Substracter.vi"/>
+		<Item Name="LIA FFT Refreseher.vi" Type="VI" URL="../examples/LIA FFT Refreseher.vi"/>
 		<Item Name="LIA Fgen Arbitrary Waveform (Dual Channel).vi" Type="VI" URL="../examples/LIA Fgen Arbitrary Waveform (Dual Channel).vi"/>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
@@ -1969,7 +1971,7 @@ It also provides a User Command Interface to configure the clock selection (Inte
 			<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">PXIe-7976R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7976RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
 			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 			<Property Name="NI.SortType" Type="Int">1</Property>
-			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/Admin/Desktop/LIA-Hoffiz/lib/fpga/Public/Stream Data I64x2.vi</Property>
+			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/Admin/Desktop/LIA-Hoffiz/examples/LIA Example FPGA.vi</Property>
 			<Property Name="Resource Name" Type="Str"></Property>
 			<Property Name="Target Class" Type="Str">PXIe-7976R</Property>
 			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
@@ -4477,7 +4479,7 @@ InitDoneNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/I
 &lt;/Cluster&gt;
 &lt;/Array&gt;
 PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 0 Rd Data;0;ReadMethodType=boolPFI 0 WEArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 0 WE;0;WriteMethodType=boolPFI 0 Wr DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 0 Wr Data;0;WriteMethodType=boolPFI 1 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 1 Rd Data;0;ReadMethodType=boolPFI 1 WEArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 1 WE;0;WriteMethodType=boolPFI 1 Wr DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 1 Wr Data;0;WriteMethodType=boolPFI 2 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 2 Rd Data;0;ReadMethodType=boolPFI 2 WEArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 2 WE;0;WriteMethodType=boolPFI 2 Wr DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 2 Wr Data;0;WriteMethodType=boolPFI 3 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/PFI 3 Rd Data;0;ReadMethodType=boolPFI 3 WEArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 3 WE;0;WriteMethodType=boolPFI 3 Wr DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/PFI 3 Wr Data;0;WriteMethodType=boolPXIe-7976R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7976RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGAstream.fifo i16 0"ControlLogic=0;NumberOfElements=8191;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;stream.fifo i16 0;DataType=100080000000000100094002000349313600010000000000000000;DisableOnOverflowUnderflow=FALSE"stream.fifo i64 0"ControlLogic=0;NumberOfElements=16383;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;stream.fifo i64 0;DataType=100080000000000100094004000349363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"stream.fifo i64 1"ControlLogic=0;NumberOfElements=16383;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;stream.fifo i64 0;DataType=100080000000000100094004000349363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"stream.fifo i64 2"ControlLogic=0;NumberOfElements=16383;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;stream.fifo i64 0;DataType=100080000000000100094004000349363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"stream.fifo i64 3"ControlLogic=0;NumberOfElements=16383;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;stream.fifo i64 0;DataType=100080000000000100094004000349363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"stream.fifo i64 4"ControlLogic=0;NumberOfElements=16383;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;stream.fifo i64 0;DataType=100080000000000100094004000349363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"stream.fifo i64 5"ControlLogic=0;NumberOfElements=16383;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;stream.fifo i64 0;DataType=100080000000000100094004000349363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"stream.fifo i64 6"ControlLogic=0;NumberOfElements=16383;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;stream.fifo i64 0;DataType=100080000000000100094004000349363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"stream.fifo i64 7"ControlLogic=0;NumberOfElements=16383;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;stream.fifo i64 0;DataType=100080000000000100094004000349363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"Test Clock 10 MhzNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Test Clock 10 Mhz;0;ReadMethodType=boolTrigger Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Trigger Rd Data;0;ReadMethodType=boolTrigger Wr DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Trigger Wr Data;0;WriteMethodType=boolTrigger Wr EnArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Trigger Wr En;0;WriteMethodType=boolUser Command Arg 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/User Command Arg 0;0;WriteMethodType=U32User Command Arg 1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/User Command Arg 1;0;WriteMethodType=U32User Command ErrorNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Command Error;0;ReadMethodType=U16User Command ReadyNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Command Ready;0;ReadMethodType=boolUser Command Return ValidNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Command Return Valid;0;ReadMethodType=boolUser Command ReturnNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/User Command Return;0;ReadMethodType=U32User Command ValidArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/User Command Valid;0;WriteMethodType=boolUser CommandArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/User Command;0;WriteMethodType=U32VCO0 FIFO"ControlLogic=0;NumberOfElements=8191;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;VCO0 FIFO;DataType=1000800000000001003C005F03510031000000010001000100000001FFFFFFFFFFFFFFFF00000030000000000000FFFFFFFFFFFF00000001FFFFFFD1000000000000000100010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
-				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\Admin\Desktop\LIA\targets\7976\FPGA Bitfiles\LIA Example FPGA.lvbitx</Property>
+				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\Admin\Desktop\LIA-Hoffiz\bitfiles\LIA Example FPGA.lvbitx</Property>
 			</Item>
 			<Item Name="Lock-In Amplifier Example FPGA.lvlib" Type="Library" URL="../lib/fpga/Lock-In Amplifier Example FPGA.lvlib"/>
 			<Item Name="Dependencies" Type="Dependencies">
@@ -4610,8 +4612,8 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">bitfiles</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Admin/Desktop/LIA/targets/7976/FPGA Bitfiles/LIA Example FPGA.lvbitx</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/LIA Example FPGA.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Admin/Desktop/LIA-Hoffiz/bitfiles/LIA Example FPGA.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">bitfiles/LIA Example FPGA.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/Admin/Desktop/LIA-Hoffiz/LIA Example.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
 					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
@@ -4622,8 +4624,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="LIA Substracter.vi" Type="VI" URL="../examples/LIA Substracter.vi"/>
-		<Item Name="LIA FFT Refreseher.vi" Type="VI" URL="../examples/LIA FFT Refreseher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -4666,6 +4666,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niInstr Streaming v1 Host.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Streaming/v1/Host/niInstr Streaming v1 Host.lvlib"/>
@@ -4771,19 +4772,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="xsimk636F1A61939440D6905F7A24F3E97BFF.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/DSP/v1/FPGA/Private/Equalization/IP_BlockSimFiles/xsim.dir/EqFanoutFf/xsimk636F1A61939440D6905F7A24F3E97BFF.dll"/>
 				<Item Name="EqSingleFilter_597026864DC13FFFA120CE82B9307E2D.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/DSP/v1/FPGA/Private/Equalization/FIRFilter_1spcSimFiles/EqSingleFilter_597026864DC13FFFA120CE82B9307E2D.dll"/>
 				<Item Name="xsimk597026864DC13FFFA120CE82B9307E2D.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/DSP/v1/FPGA/Private/Equalization/FIRFilter_1spcSimFiles/xsim.dir/EqSingleFilter/xsimk597026864DC13FFFA120CE82B9307E2D.dll"/>
-				<Item Name="niFgen Util Create Waveform Data.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Util Create Waveform Data.vi"/>
-				<Item Name="niFgen Clear Arbitrary Memory.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Clear Arbitrary Memory.vi"/>
-				<Item Name="niFgen Configure Sample Clock Source.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Sample Clock Source.vi"/>
-				<Item Name="niFgen_ctl Sample Clock Source Values (Ring).ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen_ctl Sample Clock Source Values (Ring).ctl"/>
-				<Item Name="niFgen Set Sample Rate.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Set Sample Rate.vi"/>
-				<Item Name="niFgen Allocate Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Allocate Waveform.vi"/>
-				<Item Name="niFgen Write Waveform (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Waveform (poly).vi"/>
-				<Item Name="niFgen Write Binary 16 Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Binary 16 Waveform.vi"/>
-				<Item Name="niFgen Write WDT Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write WDT Waveform.vi"/>
-				<Item Name="niFgen Write Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Waveform.vi"/>
-				<Item Name="niFgen Write Waveform (Complex DBL).vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Waveform (Complex DBL).vi"/>
-				<Item Name="niFgen Write Waveform I16 Direct DMA.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Waveform I16 Direct DMA.vi"/>
-				<Item Name="niFgen Write Complex WDT Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Complex WDT Waveform.vi"/>
+				<Item Name="niInstr Streaming v1 FPGA.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/Streaming/v1/FPGA/niInstr Streaming v1 FPGA.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niFgen_32.dll" Type="Document" URL="niFgen_32.dll">
@@ -4808,6 +4797,8 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Lock-In Amplifier Example FPGA.lvlib" Type="Library" URL="../lib/fpga/Lock-In Amplifier Example FPGA.lvlib"/>
+			<Item Name="xsimk_46A5B37C04AB4F31B6372087A31BC6A8.dll" Type="Document" URL="../lib/fpga/Public/CIC FXPi18x1/CIC Compiler/xsim.dir/CIC_Compiler_46A5B37C04AB4F31B6372087A31BC6A8/xsimk_46A5B37C04AB4F31B6372087A31BC6A8.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
