@@ -4516,6 +4516,11 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
+				<Item Name="LIA Custom Digital PLL.vi" Type="VI" URL="../../examples/subvis/LIA Custom Digital PLL.vi"/>
+				<Item Name="Lock-In Amplifier Example FPGA.lvlib" Type="Library" URL="../../lib/fpga/Lock-In Amplifier Example FPGA.lvlib"/>
+				<Item Name="NI PLL IP FPGA.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/_NI PLL IP/FPGA/NI PLL IP FPGA.lvlib"/>
+				<Item Name="xsimk_46A5B37C04AB4F31B6372087A31BC6A8.dll" Type="Document" URL="../../lib/fpga/Public/CIC FXPi18x1/CIC Compiler/xsim.dir/CIC_Compiler_46A5B37C04AB4F31B6372087A31BC6A8/xsimk_46A5B37C04AB4F31B6372087A31BC6A8.dll"/>
+				<Item Name="xsimk_286C3DE52D9440B7A5661489EED6DA06.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/_NI PLL IP/FPGA/Private/hilbert/xsim.dir/hilbert_286C3DE52D9440B7A5661489EED6DA06/xsimk_286C3DE52D9440B7A5661489EED6DA06.dll"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="Lock-In Amplifier FPGA 7976 5783" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -4546,7 +4551,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">bitfiles</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/targets/7976/bitfiles/Lock-In Amplifier FPGA 7976 5783.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Admin/Desktop/LIA-Hoffiz/NI Lock-In Amplifier/bitfiles/Lock-In Amplifier FPGA 7976 5783.lvbitx</Property>
 					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">bitfiles/Lock-In Amplifier FPGA 7976 5783.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/Admin/Desktop/LIA-Hoffiz/NI Lock-In Amplifier/LIA Example 7976R 5783.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
@@ -4610,7 +4615,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="LIA Host Interface.lvclass" Type="LVClass" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/interface/Interface/LIA Host Interface.lvclass"/>
 			<Item Name="Lock-In Amplifier Example Host.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/host/Lock-In Amplifier Example Host.lvlib"/>
 			<Item Name="Lock-In Amplifier Example Shared.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/shared/Lock-In Amplifier Example Shared.lvlib"/>
-			<Item Name="Lock-In Amplifier FPGA 7976 5783.lvbitx" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/targets/7976/bitfiles/Lock-In Amplifier FPGA 7976 5783.lvbitx"/>
+			<Item Name="Lock-In Amplifier FPGA 7976 5783 - Copy.lvbitx" Type="Document" URL="../bitfiles/Lock-In Amplifier FPGA 7976 5783 - Copy.lvbitx"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

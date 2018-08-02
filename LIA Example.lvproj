@@ -4782,7 +4782,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="Configuration Complete NI 5783.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Configuration Complete NI 5783.vi"/>
 			<Item Name="Configure Clock.vi" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Configure Clock.vi"/>
 			<Item Name="LIA 7935 5783.lvbitx" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/targets/7935/bitfiles/LIA 7935 5783.lvbitx"/>
-			<Item Name="Lock-In Amplifier FPGA 7976 5783.lvbitx" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/targets/7976/bitfiles/Lock-In Amplifier FPGA 7976 5783.lvbitx"/>
+			<Item Name="Lock-In Amplifier FPGA 7976 5783 - Copy.lvbitx" Type="Document" URL="../NI Lock-In Amplifier/bitfiles/Lock-In Amplifier FPGA 7976 5783 - Copy.lvbitx"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niFgen_32.dll" Type="Document" URL="niFgen_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
