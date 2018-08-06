@@ -4520,11 +4520,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="LIA Digital PLL FPGA.vi" Type="VI" URL="../subvis/LIA Digital PLL FPGA.vi"/>
-				<Item Name="Lock-In Amplifier Example FPGA.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/fpga/Lock-In Amplifier Example FPGA.lvlib"/>
-				<Item Name="NI PLL IP FPGA.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/_NI PLL IP/FPGA/NI PLL IP FPGA.lvlib"/>
-				<Item Name="xsimk_286C3DE52D9440B7A5661489EED6DA06.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/_NI PLL IP/FPGA/Private/hilbert/xsim.dir/hilbert_286C3DE52D9440B7A5661489EED6DA06/xsimk_286C3DE52D9440B7A5661489EED6DA06.dll"/>
-				<Item Name="xsimk_CF4DCE95E0B0459BBA0FD1297F6E8A86.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/fpga/Public/CIC FXPi18x1/CIC Compiler/xsim.dir/CIC_Compiler_CF4DCE95E0B0459BBA0FD1297F6E8A86/xsimk_CF4DCE95E0B0459BBA0FD1297F6E8A86.dll"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="Lock-In Amplifier FPGA 7976 5783" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
