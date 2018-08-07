@@ -27,9 +27,9 @@ Compiling the FPGA: You will need to regenerate IP integration node support file
 
 If you need to recreated the IP Cores from scratch here are some pointers to keep in mind:
 
-1- Use a disable structure to keep a copy of the old CIC Xilinx Core. This will help make sure we keep all signals in the right order as well as keeping the fixed point setting equal to the original implementation.
-2- Double check the m_axis_data_tdata fixed point the defaul is for +/- 64,64 but the downstream code expects +/- 64,1
-3- A documentation folder in this repo has some extra pictures to help with the setup
+1. Use a disable structure to keep a copy of the old CIC Xilinx Core. This will help make sure we keep all signals in the right order as well as keeping the fixed point setting equal to the original implementation.
+2. Double check the m_axis_data_tdata fixed point the defaul is for +/- 64,64 but the downstream code expects +/- 64,1
+3. A documentation folder in this repo has some extra pictures to help with the setup
 
 ### License
 
