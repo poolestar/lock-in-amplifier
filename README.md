@@ -21,9 +21,9 @@ The documentation of the example located in:
 ```
 C:\Program Files (x86)\National Instruments\LabVIEW ????\examples\Lock-In Amplifier\documentation
 ```
-Shares that to re-compile the user should:
+shares that to re-compile the user should:
 
-Compiling the FPGA: You will need to regenerate IP integration node support files. To do this, open one of the target projects and open the top-level FPGA VI, "LIA Example FPGA.vi". From the VI, select "Tools»FPGA Module»Regenerate IP Integration Node Support Files...". Then, push 
+_Compiling the FPGA: You will need to regenerate IP integration node support files. To do this, open one of the target projects and open the top-level FPGA VI, "LIA Example FPGA.vi". From the VI, select "Tools»FPGA Module»Regenerate IP Integration Node Support Files...". Then, push_
 
 If you need to recreated the IP Cores from scratch here are some pointers to keep in mind:
 
