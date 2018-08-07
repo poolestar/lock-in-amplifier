@@ -510,7 +510,7 @@ FPGA-to-Host"ControlLogic=0;NumberOfElements=2047;Type=2;ReadArbs=Arbitrate if M
             <RelativeToLabVIEW>..\Shared\FlexRIO\IO Modules\NI 5783\15.6.0\K7\NI5783\LvFpgaTarget\NI5783.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5783\15.6.0\K7\NI5783\LvFpgaTarget\NI5783.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>Shared\FlexRIO\IO Modules\NI 5783\15.6.0\K7\NI5783\LvFpgaTarget\NI5783.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5783\15.6.0\K7\NI5783\LvFpgaTarget\NI5783.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 5783\15.6.0\K7\NI5783\LvFpgaTarget\NI5783.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This CLIP provides access to four 16-bit 100 MS/s analog input channels, four 16-bit analog output channels (selectable between 100 MS/s and 200 MS/s), eight bidirectional DIO channels, four bidirectional PFI channels, and the front panel trigger.
@@ -3200,14 +3200,14 @@ FPGA-to-Host"ControlLogic=0;NumberOfElements=2047;Type=2;ReadArbs=Arbitrate if M
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Clock Select.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/Controls/Clock Select.ctl"/>
-			<Item Name="Configuration Complete NI 5783.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Configuration Complete NI 5783.vi"/>
-			<Item Name="Configure Clock.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Configure Clock.vi"/>
-			<Item Name="User Command.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/Controls/User Command.ctl"/>
-			<Item Name="Volts to Codes.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Volts to Codes.vi"/>
+			<Item Name="Clock Select.ctl" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/Controls/Clock Select.ctl"/>
+			<Item Name="Configuration Complete NI 5783.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Configuration Complete NI 5783.vi"/>
+			<Item Name="Configure Clock.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Configure Clock.vi"/>
+			<Item Name="Volts to Codes.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Volts to Codes.vi"/>
 			<Item Name="nistreaming.dll" Type="Document" URL="/&lt;resource&gt;/nistreaming.dll"/>
-			<Item Name="Scale Acquired Data NI 5783.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Scale Acquired Data NI 5783.vi"/>
+			<Item Name="Scale Acquired Data NI 5783.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Scale Acquired Data NI 5783.vi"/>
 			<Item Name="ADCSamples_FPGATarget_NI5783-GettingSt_O3Cot-WQFrs.lvbitx" Type="Document" URL="../FPGA Bitfiles/ADCSamples_FPGATarget_NI5783-GettingSt_O3Cot-WQFrs.lvbitx"/>
+			<Item Name="User Command.ctl" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/Controls/User Command.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
