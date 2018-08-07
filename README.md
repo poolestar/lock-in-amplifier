@@ -10,6 +10,7 @@ The development enviroment for this reference architecture is made of:
 - LabVIEW FPGA Module 2017
 - FlexRIO Driver 2018
 - NI-FGEN 2018
+- VIPM Lock-In Amplifier
 
 These software version are not mandatory. I'm just documenting the one used during development in case a 1:1 system needs to be setup for debugging.
 
@@ -19,4 +20,4 @@ These software version are not mandatory. I'm just documenting the one used duri
 
 ### License
 
-Refer to the attached license. For now, since this is not yet ready for realease but being used to keep a contolled copy of the changes, the license is under my name.
+Refer to the attached license. For now, since this is not ready for realease but being used to keep a contolled copy of the changes, the license is under my name.
