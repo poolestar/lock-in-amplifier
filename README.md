@@ -1,6 +1,6 @@
 # Lock-In-Amplifier
 
-This public personal repository was sourced from the VIPM lock-in amplifier plus a few debugging/learning subVIs. This repo include changes like: adding 2 mathematically generated sines from the FPGA for validation purpuses, adding a PLL better suited for digital pulses, and adding a FIR decimation filter as well as the including CIC.
+This public personal repository was sourced from the VIPM lock-in amplifier plus the addition of a few debugging/research subVIs. This repo include changes like: adding 2 mathematically generated sines from the FPGA for validation purpuses, adding a PLL better suited for digital pulses, and adding a FIR decimation filter as well as the including CIC.
 
 ## Software Stack
 
