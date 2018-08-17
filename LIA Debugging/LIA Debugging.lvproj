@@ -18,6 +18,7 @@
 			<Item Name="LIA Digital PLL FPGA.vi" Type="VI" URL="../LIA Digital PLL FPGA.vi"/>
 			<Item Name="LIA Configre DPLL.vi" Type="VI" URL="../SubVIs/LIA Configre DPLL.vi"/>
 			<Item Name="LIA Select Decimator.vi" Type="VI" URL="../SubVIs/LIA Select Decimator.vi"/>
+			<Item Name="LIA Configure NCO.vi" Type="VI" URL="../SubVIs/LIA Configure NCO.vi"/>
 		</Item>
 		<Item Name="LIA Example Host.vi" Type="VI" URL="../LIA Example Host.vi"/>
 		<Item Name="LIA Debugging Host.vi" Type="VI" URL="../LIA Debugging Host.vi"/>
