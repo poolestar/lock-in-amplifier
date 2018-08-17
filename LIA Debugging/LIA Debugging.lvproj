@@ -9164,7 +9164,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="FFT-Parallel-Averaging.vi" Type="VI" URL="../../../Sandbox-Tests/FFT-Parallel-Averaging.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
