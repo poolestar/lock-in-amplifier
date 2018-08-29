@@ -8073,7 +8073,7 @@ It also provides a User Command Interface to configure the clock selection (Inte
 				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
-			<Item Name="LIA Debugging FPGA.vi" Type="VI" URL="../LIA Debugging FPGA.vi">
+			<Item Name="LIA Debugging FPGA.vi" Type="VI" URL="../FPGA/LIA Debugging FPGA.vi">
 				<Property Name="BuildSpec" Type="Str">{935F90BA-E321-4EA4-9654-6BBFC7E1FE4D}</Property>
 				<Property Name="configString.guid" Type="Str">{02E875B5-4011-4B80-BDA9-E0F9EEDFD71A}"ControlLogic=0;NumberOfElements=16383;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;stream.fifo i64 0;DataType=100080000000000100094004000349363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{0A953ECE-0E17-44FF-BC6A-3740C6E8C7DC}"ControlLogic=0;NumberOfElements=16383;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;stream.fifo i64 0;DataType=100080000000000100094004000349363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{0E8B6E84-FA43-4731-8055-306E17C12A33}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/AO 3 Data N-1 Data Clock;0;WriteMethodType=I16{0EDE2B26-3CB6-4574-A146-2CAB4321C8DC}000780a0823bc855293d60573c0056c7IOModuleID:0x1093784E,Version:15.6.0,National Instruments::NI 5783,SyncClock:CLK10&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
@@ -9123,14 +9123,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="LIA 4HF Decimators.vi" Type="VI" URL="../SubVIs/LIA 4HF Decimators.vi"/>
-				<Item Name="LIA Digital PLL FPGA.vi" Type="VI" URL="../LIA Digital PLL FPGA.vi"/>
-				<Item Name="LIA IQ to IQ Cluster.vi" Type="VI" URL="../SubVIs/LIA IQ to IQ Cluster.vi"/>
-				<Item Name="Lock-In Amplifier Example FPGA.lvlib" Type="Library" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/fpga/Lock-In Amplifier Example FPGA.lvlib"/>
-				<Item Name="NI PLL IP FPGA.lvlib" Type="Library" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/_NI PLL IP/FPGA/NI PLL IP FPGA.lvlib"/>
-				<Item Name="xsimk_0EFBEBF2FBC14C9D8ACC94B2504D3B1A.dll" Type="Document" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/fpga/Private/cic/xsim.dir/cic_0EFBEBF2FBC14C9D8ACC94B2504D3B1A/xsimk_0EFBEBF2FBC14C9D8ACC94B2504D3B1A.dll"/>
-				<Item Name="xsimk_286C3DE52D9440B7A5661489EED6DA06.dll" Type="Document" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/_NI PLL IP/FPGA/Private/hilbert/xsim.dir/hilbert_286C3DE52D9440B7A5661489EED6DA06/xsimk_286C3DE52D9440B7A5661489EED6DA06.dll"/>
-				<Item Name="xsimk_AA5BC72E715C4DE4AF49384AFD87FC63.dll" Type="Document" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/fpga/Public/CIC FXPi18x1/CIC Compiler/xsim.dir/CIC_Compiler_AA5BC72E715C4DE4AF49384AFD87FC63/xsimk_AA5BC72E715C4DE4AF49384AFD87FC63.dll"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="LIA Debugging FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -9286,12 +9278,12 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DFD Build CIC Filter.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/FilterLib.llb/DFD Build CIC Filter.vi"/>
-				<Item Name="DFD MRate Filtering (Array).vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Multirate.llb/DFD MRate Filtering (Array).vi"/>
-				<Item Name="DFD MRate Filtering.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Multirate.llb/DFD MRate Filtering.vi"/>
-				<Item Name="DFD Plot MRate Freq Response.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Digital Filter Design/Analysis.llb/DFD Plot MRate Freq Response.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
+				<Item Name="DWDT Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital Size.vi"/>
+				<Item Name="DWDT Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Final Time Value.vi"/>
+				<Item Name="DWDT Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Waveform Duration.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -9301,6 +9293,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Get Final Time Value.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
@@ -9311,11 +9304,16 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_DigFilter_FXP.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Digital Filter Design/NI_DigFilter_FXP.lvlib"/>
+				<Item Name="NI_DigFilter_Process.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Digital Filter Design/NI_DigFilter_Process.lvlib"/>
+				<Item Name="NI_DigFilterLicensed.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Digital Filter Design/NI_DigFilterLicensed.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -9325,6 +9323,16 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Duration.vi"/>
+				<Item Name="WDT Get Final Time Value DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Final Time Value DBL.vi"/>
+				<Item Name="WDT Number of Waveform Samples CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples CDB.vi"/>
+				<Item Name="WDT Number of Waveform Samples DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples DBL.vi"/>
+				<Item Name="WDT Number of Waveform Samples EXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples EXT.vi"/>
+				<Item Name="WDT Number of Waveform Samples I8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I8.vi"/>
+				<Item Name="WDT Number of Waveform Samples I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I16.vi"/>
+				<Item Name="WDT Number of Waveform Samples I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I32.vi"/>
+				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
+				<Item Name="WDT Waveform Duration DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform Duration DBL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="ADCSamples_FPGATarget_NI5783-GettingSt_O3Cot-WQFrs.lvbitx" Type="Document" URL="../../NI 5783 Getting Started/FPGA Bitfiles/ADCSamples_FPGATarget_NI5783-GettingSt_O3Cot-WQFrs.lvbitx"/>
@@ -9339,6 +9347,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="Lock-In Amplifier Example Host.lvlib" Type="Library" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/host/Lock-In Amplifier Example Host.lvlib"/>
 			<Item Name="Lock-In Amplifier Example Shared.lvlib" Type="Library" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/shared/Lock-In Amplifier Example Shared.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="LVDFD.dll" Type="Document" URL="/&lt;resource&gt;/LVDFD.dll"/>
 			<Item Name="niFgen_32.dll" Type="Document" URL="niFgen_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
