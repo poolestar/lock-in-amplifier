@@ -9165,6 +9165,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Lock-In Amplifier Example Host.lvlib" Type="Library" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/host/Lock-In Amplifier Example Host.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -9219,6 +9220,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
@@ -9240,6 +9242,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -9253,7 +9256,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="LIA Host Interface FPGA.lvclass" Type="LVClass" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/interface/Interface FPGA/LIA Host Interface FPGA.lvclass"/>
 			<Item Name="LIA Host Interface RT.lvclass" Type="LVClass" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/interface/Interface RT/LIA Host Interface RT.lvclass"/>
 			<Item Name="LIA Host Interface.lvclass" Type="LVClass" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/interface/Interface/LIA Host Interface.lvclass"/>
-			<Item Name="Lock-In Amplifier Example Host.lvlib" Type="Library" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/host/Lock-In Amplifier Example Host.lvlib"/>
 			<Item Name="Lock-In Amplifier Example Shared.lvlib" Type="Library" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/shared/Lock-In Amplifier Example Shared.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niFgen_32.dll" Type="Document" URL="niFgen_32.dll">
