@@ -35,13 +35,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="Configure Decimator 0.vi" Type="VI" URL="../Configure Decimator 0.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'[!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!='ER*13")&lt;X.U)%FO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!!!74%F")%BP=X1A37ZU:8*G97.F)'^V&gt;!!!7Q$R!!!!!!!!!!%84%F")%2F9WFN982P=D!A27ZV&lt;3ZD&gt;'Q!/U!7!!9%4G^O:1.$35-$2EF3!T2)1A.44V-%.&amp;.05Q!5&lt;'^D;SVJ&lt;CZE:7.J&lt;7&amp;U&lt;X)Q)$!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'U!$!"6M&lt;W.L,7FO,G2F9WFN982J&lt;WYQ)$!!0%"Q!"Y!!"Q;4%F")%BP=X1A37ZU:8*G97.F,GRW9WRB=X-!!"6-35%A3'^T&gt;#"*&lt;H2F=G:B9W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!'!!=!"!!)!!E$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!#!!!!!I!!!!!!!!!#!!!!!A!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;B!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!8&amp;5R*13"%:7*V:W&gt;J&lt;G=O&lt;(:D&lt;'&amp;T=Q!74%F")%BP=X1A37ZU:8*G97.F)'^V&gt;!!!'U!$!"2M&lt;W.L,7FO,G2F9WFN982P=D!A-!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!&lt;1!-!&amp;7RP9WMN;7YO:'6D;7VB&gt;'FP&lt;D!A-!!W1(!!(A!!&amp;R6-35%A2'6C&gt;7&gt;H;7ZH,GRW9WRB=X-!&amp;5R*13")&lt;X.U)%FO&gt;'6S:G&amp;D:3"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!9!"Q!%!!A!#1-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!)!!!!#A!!!!!!!!!)!!!!E!!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710291</Property>
 	</Item>
 	<Item Name="Configure Decimator 1.vi" Type="VI" URL="../Configure Decimator 1.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'O!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!='ER*13")&lt;X.U)%FO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!!!74%F")%BP=X1A37ZU:8*G97.F)'^V&gt;!!!4Q$R!!!!!!!!!!%84%F")%2F9WFN982P=D%A27ZV&lt;3ZD&gt;'Q!,U!7!!-%4G^O:1.'36)$5U^4!!!5&lt;'^D;SVJ&lt;CZE:7.J&lt;7&amp;U&lt;X)R)$!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'U!$!"6M&lt;W.L,7FO,G2F9WFN982J&lt;WYR)$!!0%"Q!"Y!!"Q;4%F")%BP=X1A37ZU:8*G97.F,GRW9WRB=X-!!"6-35%A3'^T&gt;#"*&lt;H2F=G:B9W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!9!"!!%!!=!#!!%!!E$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!A!!!!!!!!!!!!!!!I!!!!)!!!!!!!!!!A!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>

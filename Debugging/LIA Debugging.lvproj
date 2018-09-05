@@ -16,6 +16,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="LIA Power Spectrum.vi" Type="VI" URL="../SubVIs/LIA Power Spectrum.vi"/>
 			<Item Name="LIA Scale Channel Preview.vi" Type="VI" URL="../SubVIs/LIA Scale Channel Preview.vi"/>
+			<Item Name="LIA DFD Decimation.vi" Type="VI" URL="../SubVIs/LIA DFD Decimation.vi"/>
 		</Item>
 		<Item Name="LIA Example Host.vi" Type="VI" URL="../LIA Example Host.vi"/>
 		<Item Name="LIA Debugging Host.vi" Type="VI" URL="../LIA Debugging Host.vi"/>
@@ -10069,6 +10070,25 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
+				<Item Name="IIR_block_fast18_reg_rnd.vi" Type="VI" URL="../../../Cascaded-SOS/FPGA/ATSC_SubVIs/IIR_block_fast18_reg_rnd.vi"/>
+				<Item Name="IIR_Coeffs.ctl" Type="VI" URL="../../../Cascaded-SOS/FPGA/Controls/IIR_Coeffs.ctl"/>
+				<Item Name="IIR_SOS_18b_dc_reg.vi" Type="VI" URL="../../../Cascaded-SOS/FPGA/ATSC_SubVIs/IIR_SOS_18b_dc_reg.vi"/>
+				<Item Name="LIA 4HF Decimators.vi" Type="VI" URL="../FPGA/LIA 4HF Decimators.vi"/>
+				<Item Name="LIA 4IIR.vi" Type="VI" URL="../FPGA/LIA 4IIR.vi"/>
+				<Item Name="LIA Decimator0 Enum.ctl" Type="VI" URL="../FPGA/LIA Decimator0 Enum.ctl"/>
+				<Item Name="LIA Decimator1 Enum.ctl" Type="VI" URL="../FPGA/LIA Decimator1 Enum.ctl"/>
+				<Item Name="LIA Digital PLL FPGA.vi" Type="VI" URL="../FPGA/LIA Digital PLL FPGA.vi"/>
+				<Item Name="LIA IQ Cluster to IQ.vi" Type="VI" URL="../FPGA/LIA IQ Cluster to IQ.vi"/>
+				<Item Name="LIA IQ to IQ Cluster.vi" Type="VI" URL="../FPGA/LIA IQ to IQ Cluster.vi"/>
+				<Item Name="Lock-In Amplifier Example FPGA.lvlib" Type="Library" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/fpga/Lock-In Amplifier Example FPGA.lvlib"/>
+				<Item Name="mul_18x18_dc_ht_rnd.vi" Type="VI" URL="../../../Cascaded-SOS/FPGA/ATSC_SubVIs/mul_18x18_dc_ht_rnd.vi"/>
+				<Item Name="mul_add_18_dc_rnd.vi" Type="VI" URL="../../../Cascaded-SOS/FPGA/ATSC_SubVIs/mul_add_18_dc_rnd.vi"/>
+				<Item Name="mul_add_24_dc_ht_reg.vi" Type="VI" URL="../../../Cascaded-SOS/FPGA/ATSC_SubVIs/mul_add_24_dc_ht_reg.vi"/>
+				<Item Name="mul_add_24_dc_ht_rnd.vi" Type="VI" URL="../../../Cascaded-SOS/FPGA/ATSC_SubVIs/mul_add_24_dc_ht_rnd.vi"/>
+				<Item Name="NI PLL IP FPGA.lvlib" Type="Library" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/_NI PLL IP/FPGA/NI PLL IP FPGA.lvlib"/>
+				<Item Name="xsimk_0EFBEBF2FBC14C9D8ACC94B2504D3B1A.dll" Type="Document" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/fpga/Private/cic/xsim.dir/cic_0EFBEBF2FBC14C9D8ACC94B2504D3B1A/xsimk_0EFBEBF2FBC14C9D8ACC94B2504D3B1A.dll"/>
+				<Item Name="xsimk_286C3DE52D9440B7A5661489EED6DA06.dll" Type="Document" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/_NI PLL IP/FPGA/Private/hilbert/xsim.dir/hilbert_286C3DE52D9440B7A5661489EED6DA06/xsimk_286C3DE52D9440B7A5661489EED6DA06.dll"/>
+				<Item Name="xsimk_AA5BC72E715C4DE4AF49384AFD87FC63.dll" Type="Document" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/fpga/Public/CIC FXPi18x1/CIC Compiler/xsim.dir/CIC_Compiler_AA5BC72E715C4DE4AF49384AFD87FC63/xsimk_AA5BC72E715C4DE4AF49384AFD87FC63.dll"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="LIA Debugging FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -10152,7 +10172,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 		<Item Name="Lock-In Amplifier Example Host.lvlib" Type="Library" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/host/Lock-In Amplifier Example Host.lvlib"/>
 		<Item Name="LIA Debugging.lvclass" Type="LVClass" URL="../Class/LIA Debugging.lvclass"/>
 		<Item Name="LIA Debugging Slow.lvclass" Type="LVClass" URL="../Slow Class/LIA Debugging Slow.lvclass"/>
-		<Item Name="LIA DFD Decimation.vi" Type="VI" URL="../SubVIs/LIA DFD Decimation.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
