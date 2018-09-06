@@ -10154,6 +10154,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 		<Item Name="Lock-In Amplifier Example Host.lvlib" Type="Library" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Lock-In Amplifier/lib/host/Lock-In Amplifier Example Host.lvlib"/>
 		<Item Name="LIA Debugging.lvclass" Type="LVClass" URL="../Class/LIA Debugging.lvclass"/>
 		<Item Name="LIA Debugging Slow.lvclass" Type="LVClass" URL="../Slow Class/LIA Debugging Slow.lvclass"/>
+		<Item Name="LIA Vrms2 to dBm Real.vi" Type="VI" URL="../SubVIs/LIA Vrms2 to dBm Real.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">1</Property>
 			<Item Name="instr.lib" Type="Folder">
