@@ -1314,6 +1314,484 @@ PXIe-7976R/Clk40/falsefalseFLEXRIO_IO_MODELNoneFPGA_EXECUTION_MODEFPGA_TARGETFPG
 				<Property Name="Type" Type="UInt">2</Property>
 				<Property Name="Type Descriptor" Type="Str">100080000000000100094008000355363400010000000000000000000000000000</Property>
 			</Item>
+			<Item Name="LIA Basic Multiply.vi" Type="VI" URL="../FPGA/LIA Basic Multiply.vi">
+				<Property Name="BuildSpec" Type="Str">{E97A6512-E696-49C6-A325-A43DE7E9CA6B}</Property>
+				<Property Name="configString.guid" Type="Str">{2030D7CD-EE1E-46A0-A755-86965B35EF9B}"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FPGA-to-Host;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"{70B22873-E68C-496E-8D2D-E7FF453ADB0E}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{8FD82B16-4E6F-4EEC-8430-741F28E2F806}Multiplier=1.000000;Divisor=2.000000{AFBD524A-F049-4830-88BC-8BBB6B379BE4}{03CE84A0-9B41-47c9-B00F-6DC0324E5089},Version:,::None,SyncClock:None&lt;Array&gt;
+&lt;Name&gt;Generics&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Clock Connections&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Clock 200 MHz&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;clk200&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;200 MHz Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Clock 40 MHz&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;clk40&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Data Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;AdcDataClock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;100000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;100000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Data Clock 2x&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;DacDataClock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+{D6611C83-5089-4139-A863-B05215B85D45}ResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;PXIe-7976R/Clk40/falsefalseFLEXRIO_IO_MODELNoneFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7976RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
+				<Property Name="configString.name" Type="Str">100MHzMultiplier=1.000000;Divisor=2.000000200 MHzResourceName=200 MHz Clock;TopSignalConnect=PllClk200;ClockSignalName=PllClk200;MinFreq=200000000.000000;MaxFreq=200000000.000000;VariableFreq=0;NomFreq=200000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;40 MHz OnboardResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;FPGA-to-Host"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FPGA-to-Host;DataType=100080000000000100094008000355363400010000000000000000000000000000;DisableOnOverflowUnderflow=FALSE"IO Module{03CE84A0-9B41-47c9-B00F-6DC0324E5089},Version:,::None,SyncClock:None&lt;Array&gt;
+&lt;Name&gt;Generics&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Clock Connections&lt;/Name&gt;
+&lt;Dimsize&gt;4&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Clock 200 MHz&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;clk200&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;200 MHz Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Clock 40 MHz&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;clk40&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Data Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;AdcDataClock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;100000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;100000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Data Clock 2x&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;DacDataClock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+PXIe-7976R/Clk40/falsefalseFLEXRIO_IO_MODELNoneFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7976RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
+				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Repositories\Lock-In-Amplifier\Simulations\FPGA Bitfiles\LIA Basic Multiply.lvbitx</Property>
+			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
 				<Item Name="instr.lib" Type="Folder">
 					<Item Name="niInstr DSP v1 FPGA.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_niInstr/DSP/v1/FPGA/niInstr DSP v1 FPGA.lvlib"/>
@@ -1446,6 +1924,42 @@ PXIe-7976R/Clk40/falsefalseFLEXRIO_IO_MODELNoneFPGA_EXECUTION_MODEFPGA_TARGETFPG
 					<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
 					<Property Name="TargetName" Type="Str">FPGA Target</Property>
 					<Property Name="TopLevelVI" Type="Ref">/My Computer/FPGA Target/LIA Test Frequency Shift FPGA.vi</Property>
+				</Item>
+				<Item Name="LIA Basic Multiply" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+					<Property Name="BuildSpecDecription" Type="Str"></Property>
+					<Property Name="BuildSpecName" Type="Str">LIA Basic Multiply</Property>
+					<Property Name="Comp.BitfileName" Type="Str">LIA Basic Multiply.lvbitx</Property>
+					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+					<Property Name="Comp.Version.Build" Type="Int">0</Property>
+					<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+					<Property Name="Comp.Version.Major" Type="Int">1</Property>
+					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+					<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
+					<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+					<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+					<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="ProjectPath" Type="Path">/C/Repositories/Lock-In-Amplifier/Simulations/LIA Simulations.lvproj</Property>
+					<Property Name="RelativePath" Type="Bool">true</Property>
+					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+					<Property Name="SupportDownload" Type="Bool">true</Property>
+					<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
+					<Property Name="TargetName" Type="Str">FPGA Target</Property>
+					<Property Name="TopLevelVI" Type="Ref">/My Computer/FPGA Target/LIA Basic Multiply.vi</Property>
 				</Item>
 			</Item>
 		</Item>
