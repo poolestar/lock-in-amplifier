@@ -10,7 +10,7 @@ The development enviroment for this reference architecture is made of:
 - LabVIEW FPGA Module 2017
 - FlexRIO Driver 2018
 - NI-FGEN 2018
-- Do not install or remove if you already have the Lock-In-Amplifier from VIPM. All the source code has been moved into the repo for debugging porpuses.
+- Do not install, or remove if you already have, the Lock-In-Amplifier from VIPM. All the source code has been moved into the repo for debugging porpuses.
 
 ## How to Compile the FPGA VI?
 
