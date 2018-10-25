@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<style>
+
+div.ip_table table, div.ip_table th, div.ip_table td {padding: 2px 40px 2px 2px; text-align:left;}
+div.ip_table th {text-align:center;}
+div.ip_table table {border-collapse: collapse;}
+div.ip_table td, div.ip_table th {border: 1px solid black;}
+img {display:block; margin-left:auto; margin-right:auto;}
+
+</style>
+
+<h2>
+	NI Lock-In Amplifier Reference Example
+</h2>
+<p>
+	This package is distributed under the <a href="http://ni.com/samplecodelicense">NI Sample Code License</a>.
+</p>
+
+<div id="overview">
+<h2>
+	Overview
+</h2>
+<p>
+	The NI Lock-In Amplifier Reference Example package provides FPGA, Real-Time, and Host example code that implements a lock-in amplifier on NI FlexRIO targets. A lock-in amplifier extracts a signal with a known carrier wave from a noisy environment through phase-sensitive detction. For a more detailed description, visit the <a href="https://en.wikipedia.org/wiki/Lock-in_amplifier">Wikipedia</a> page.
+</p>
+<p>
+	This example instantiates 4 FPGA-based lock-in amplifiers using the NI 5783 FlexRIO Adapter Module. Each 16-bit, 100 MSPS lock-in path provides 40 MHz of bandwidth.  Additionally, 4 16-bit, 200 MSPS analog output channels provide precise reference tones. Two of the lock-in amplifier analog inputs may be repurposed as PLLs for external reference signals. A high-level block diagram for each lock-in path is shown below.
+<img src="images\path.png" style="width:576">
+<br>
+<br>
+<p>
+
+<div class="ip_table">
+<strong>File Locations</strong>
+<table>
+		<th>Item</th>
+		<th>Location</th>
+	</tr>
+	<tr>
+		<td>Package Root</td>
+		<td><i>&#60;NIDir32&#62;</i>\LabVIEW&#60;version&#62;\examples\Lock-In Amplifier</td>
+	</tr>
+	<tr>
+		<td>Documentation</td>
+		<td><i>&#60;NIDir32&#62;</i>\LabVIEW&#60;version&#62;\examples\Lock-In Amplifier\Documentation</td>
+	</tr>
+	<tr>
+		<td>Top-Level Host</td>
+		<td><i>&#60;NIDir32&#62;</i>\LabVIEW&#60;version&#62;\examples\Lock-In Amplifier\examples\LIA Example Host.vi</td>
+	</tr>
+	<tr>
+		<td>Top-Level RT</td>
+		<td><i>&#60;NIDir32&#62;</i>\LabVIEW&#60;version&#62;\examples\Lock-In Amplifier\examples\LIA Example RT.vi</td>
+	</tr>
+	<tr>
+		<td>Top-Level FPGA</td>
+		<td><i>&#60;NIDir32&#62;</i>\LabVIEW&#60;version&#62;\examples\Lock-In Amplifier\examples\LIA Example FPGA.vi</td>
+	</tr>
+	<tr>
+		<td>PXI FlexRIO Project</td>
+		<td><i>&#60;NIDir32&#62;</i>\LabVIEW&#60;version&#62;\examples\Lock-In Amplifier\targets\7976\LIA Example 7976R 5783.lvproj</td>
+	</tr>
+	<tr>
+		<td>Controller for FlexRIO Project</td>
+		<td><i>&#60;NIDir32&#62;</i>\LabVIEW&#60;version&#62;\examples\Lock-In Amplifier\targets\7935\LIA Example 7935R 5783.lvproj</td>
+	</tr>
+</table>
+</div>
+
+<div id="Instructions">
+<h2>Example Instructions</h2>
+<p>The reference example includes support for both PXI and Real-Time FlexRIO targets. The same top-level host application is used for both targets - see the section below for details on each. The default values are configured for a loop-back demo.  Two HD-BNC cables are required and should be connected as follows:</p>
+<img src="images\setup.png" style="width:480px;">
+<ul>
+	<li><strong>AO0 to AI0:</strong> Simulates an external reference</li>
+	<li><strong>AO3 to AI1:</strong> Simulates a noisty test signal</li>
+</ul><br><br>
+
+
+<p><strong>PXI FlexRIO: </strong>To run the example on PXI FlexRIO, select the correct RIO device in the "Resource" control and run the VI.</p>
+<p><strong>Controller for FlexRIO: </strong>
+To run the example on the RT Controller for FlexRIO, first open the Controller for FLexRIO Project. Then configure the RT target's IP address. Now run "LIA Example RT.vi" and wait until it has initialized.  Now open the Top-Level Host vi, enter in the target's IP address, and run the VI.
+<p><strong>Compiling the FPGA: </strong>You will need to regenerate IP integration node support files.  To do this, open one of the target projects and open the top-level FPGA VI, "LIA Example FPGA.vi".  From the VI, select <strong>"Tools&#187;FPGA Module&#187;Regenerate IP Integration Node Support Files..."</strong>. Then, push <strong>"Regenerate Files"</strong>. In the event this fails, the correct configuration must be manally re-entered using "cic.htm" as a guide. This file is found under the same documentation folder as this readme.</p>
+</div>
+</html>

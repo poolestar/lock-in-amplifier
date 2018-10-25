@@ -1,0 +1,8 @@
+1a6e615b46d23ba099730d0736c32135
+aresetn;STD_LOGIC;;
+aclk;STD_LOGIC;;
+s_axis_data_tvalid;STD_LOGIC;;
+s_axis_data_tready;STD_LOGIC;;
+s_axis_data_tdata;STD_LOGIC_VECTOR(23 DOWNTO 0);;
+m_axis_data_tvalid;STD_LOGIC;;
+m_axis_data_tdata;STD_LOGIC_VECTOR(63 DOWNTO 0);;

@@ -1,0 +1,6 @@
+VHDL xbip_utils_v3_0 "<DIR>/xbip_utils_v3_0/hdl/xbip_utils_v3_0_vh_rfs.vhd"
+VHDL axi_utils_v2_0 "<DIR>/axi_utils_v2_0/hdl/axi_utils_v2_0_vh_rfs.vhd"
+Memory Initialization Files xil_defaultlib "<DIR>/hilbert_286C3DE52D9440B7A5661489EED6DA06.mif"
+VHDL fir_compiler_v7_2 "<DIR>/fir_compiler_v7_2/hdl/fir_compiler_v7_2_vh_rfs.vhd"
+VHDL fir_compiler_v7_2 "<DIR>/fir_compiler_v7_2/hdl/fir_compiler_v7_2.vhd"
+VHDL xil_defaultlib "<DIR>/sim/hilbert_286C3DE52D9440B7A5661489EED6DA06.vhd"

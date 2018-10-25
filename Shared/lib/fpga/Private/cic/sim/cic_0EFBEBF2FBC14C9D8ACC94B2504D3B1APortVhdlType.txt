@@ -1,0 +1,10 @@
+45c884195c520896d010753a93ab24ad
+aclk;STD_LOGIC;;
+s_axis_config_tdata;STD_LOGIC_VECTOR(15 DOWNTO 0);;
+s_axis_config_tvalid;STD_LOGIC;;
+s_axis_config_tready;STD_LOGIC;;
+s_axis_data_tdata;STD_LOGIC_VECTOR(23 DOWNTO 0);;
+s_axis_data_tvalid;STD_LOGIC;;
+s_axis_data_tready;STD_LOGIC;;
+m_axis_data_tdata;STD_LOGIC_VECTOR(63 DOWNTO 0);;
+m_axis_data_tvalid;STD_LOGIC;;
