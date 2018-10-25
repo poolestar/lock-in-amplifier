@@ -33,7 +33,10 @@ If you need to recreated the IP Cores from scratch here are some pointers to kee
 
 To make sure everyhing is installed and setuped correctly we can use the 5783 in a loop configuration. Connect AO0 to AI0. We will generate a tone using a cordic and read it back in the AI. In the front panel pick the following settings:
 
-
+1. Set channel to "AI0"
+2. Carrier source to "Manual 0" we will generate a reference tone, thorugh AO0, using a NCO instead of receiving it from an instrument. 
+3. In the output tab, set 100 KHz, same frequency as the the one used at FPGA on the DDC, AO0, and 1V.
+4. The reading will be 0.5 volts due to the mechanism of generating the reference signal.
 
 ## Running the host code
 
