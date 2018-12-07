@@ -6807,6 +6807,8 @@ Output WaveformActual Number of Elements=4096;ReadArbs=1;WriteArbs=1;Implementat
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
+				<Item Name="AI Trigger Type.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2018/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/Controls/AI Trigger Type.ctl"/>
+				<Item Name="AO Channel.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2018/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/Controls/AO Channel.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="LIA 5783 Getting Started FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -6936,11 +6938,11 @@ Output WaveformActual Number of Elements=4096;ReadArbs=1;WriteArbs=1;Implementat
 			<Item Name="Configuration Complete NI 5783.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2018/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Configuration Complete NI 5783.vi"/>
 			<Item Name="Configure Clock.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2018/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Configure Clock.vi"/>
 			<Item Name="Create Waveform.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2018/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Create Waveform.vi"/>
+			<Item Name="Digital PLL FPGA.vi" Type="VI" URL="../../Debugging/FPGA/Digital PLL FPGA.vi"/>
 			<Item Name="IIR_block_fast18_reg_rnd.vi" Type="VI" URL="../../Shared/sos/ATSC_SubVIs/IIR_block_fast18_reg_rnd.vi"/>
 			<Item Name="IIR_Coeffs.ctl" Type="VI" URL="../../Shared/sos/Controls/IIR_Coeffs.ctl"/>
 			<Item Name="IIR_SOS_18b_dc_reg.vi" Type="VI" URL="../../Shared/sos/ATSC_SubVIs/IIR_SOS_18b_dc_reg.vi"/>
 			<Item Name="LIA 5783 Getting Started FPGA.lvbitx" Type="Document" URL="../FPGA Bitfiles/LIA 5783 Getting Started FPGA.lvbitx"/>
-			<Item Name="LIA Digital PLL FPGA.vi" Type="VI" URL="../../Debugging/FPGA/LIA Digital PLL FPGA.vi"/>
 			<Item Name="LIA Test Frequency Shift.lvbitx" Type="Document" URL="../FPGA Bitfiles/LIA Test Frequency Shift.lvbitx"/>
 			<Item Name="LIA Vrms2 to dBm Complex.vi" Type="VI" URL="../../Debugging/SubVIs/LIA Vrms2 to dBm Complex.vi"/>
 			<Item Name="LIA Vrms2 to dBm Real.vi" Type="VI" URL="../../Debugging/SubVIs/LIA Vrms2 to dBm Real.vi"/>
