@@ -10022,9 +10022,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="LIA Digital PLL FPGA.vi" Type="VI" URL="../FPGA/LIA Digital PLL FPGA.vi"/>
-				<Item Name="xsimk_0EFBEBF2FBC14C9D8ACC94B2504D3B1A.dll" Type="Document" URL="../../Shared/lib/fpga/Private/cic/xsim.dir/cic_0EFBEBF2FBC14C9D8ACC94B2504D3B1A/xsimk_0EFBEBF2FBC14C9D8ACC94B2504D3B1A.dll"/>
-				<Item Name="xsimk_BF5B10393ED3427C9D4F112AC08E005B.dll" Type="Document" URL="../../Shared/lib/fpga/Public/CIC FXPi18x1/CIC Compiler/xsim.dir/CIC_Compiler_1_BF5B10393ED3427C9D4F112AC08E005B/xsimk_BF5B10393ED3427C9D4F112AC08E005B.dll"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="LIA Example FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">

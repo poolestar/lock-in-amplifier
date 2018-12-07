@@ -1,1 +1,0 @@
-"xil_defaultlib.conf_E0096FA8D1514E84B38CB4A6ADC5C7EA" -L "xil_defaultlib" -L "unisim" -L "unimacro" -L "xilinxcorelib" -L "secureip" -snapshot "CORDIC_E0096FA8D1514E84B38CB4A6ADC5C7EA" -dll -dll_name "xsimk_E0096FA8D1514E84B38CB4A6ADC5C7EA.dll" -prj "ipinodesim.prj" 

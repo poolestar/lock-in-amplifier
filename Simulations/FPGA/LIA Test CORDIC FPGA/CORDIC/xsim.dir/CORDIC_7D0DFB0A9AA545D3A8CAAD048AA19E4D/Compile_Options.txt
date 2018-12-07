@@ -1,0 +1,1 @@
+"xil_defaultlib.conf_7D0DFB0A9AA545D3A8CAAD048AA19E4D" -L "xil_defaultlib" -L "unisim" -L "unimacro" -L "xilinxcorelib" -L "secureip" -snapshot "CORDIC_7D0DFB0A9AA545D3A8CAAD048AA19E4D" -dll -dll_name "xsimk_7D0DFB0A9AA545D3A8CAAD048AA19E4D.dll" -prj "ipinodesim.prj" 
