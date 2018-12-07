@@ -1,7 +1,7 @@
 Running: xsim.dir/hilbert_286C3DE52D9440B7A5661489EED6DA06/xsimk_286C3DE52D9440B7A5661489EED6DA06.dll -log xsiSetupLog
 Design successfully loaded
-Design Loading Memory Usage: 378052 KB (Peak: 378052 KB)
-Design Loading CPU Usage: 46487 ms
+Design Loading Memory Usage: 992928 KB (Peak: 992928 KB)
+Design Loading CPU Usage: 463405 ms
 Simulation completed
-Simulation Memory Usage: 378052 KB (Peak: 378052 KB)
-Simulation CPU Usage: 46487 ms
+Simulation Memory Usage: 992928 KB (Peak: 992928 KB)
+Simulation CPU Usage: 463405 ms

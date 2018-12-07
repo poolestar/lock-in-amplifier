@@ -3161,9 +3161,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 				</Item>
-				<Item Name="LIA 48Bits Slicer.vi" Type="VI" URL="../FPGA/SubVIs/LIA 48Bits Slicer.vi"/>
-				<Item Name="xsimk_E0096FA8D1514E84B38CB4A6ADC5C7EA.dll" Type="Document" URL="../FPGA/LIA CORDIC FPGA/CORDIC/xsim.dir/CORDIC_E0096FA8D1514E84B38CB4A6ADC5C7EA/xsimk_E0096FA8D1514E84B38CB4A6ADC5C7EA.dll"/>
-				<Item Name="xsimk_DCAD7DD88FD1460A918E1FD78EBF0FD6.dll" Type="Document" URL="../FPGA/LIA Test CORDIC FPGA/Complex Multiplier/xsim.dir/Complex_Multiplier_DCAD7DD88FD1460A918E1FD78EBF0FD6/xsimk_DCAD7DD88FD1460A918E1FD78EBF0FD6.dll"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="LIA Test CORDIC FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -6939,9 +6936,9 @@ Output WaveformActual Number of Elements=4096;ReadArbs=1;WriteArbs=1;Implementat
 			<Item Name="Configuration Complete NI 5783.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2018/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Configuration Complete NI 5783.vi"/>
 			<Item Name="Configure Clock.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2018/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Configure Clock.vi"/>
 			<Item Name="Create Waveform.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2018/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/SubVIs/Create Waveform.vi"/>
-			<Item Name="IIR_block_fast18_reg_rnd.vi" Type="VI" URL="../../Shared/SOS/ATSC_SubVIs/IIR_block_fast18_reg_rnd.vi"/>
-			<Item Name="IIR_Coeffs.ctl" Type="VI" URL="../../Shared/SOS/Controls/IIR_Coeffs.ctl"/>
-			<Item Name="IIR_SOS_18b_dc_reg.vi" Type="VI" URL="../../Shared/SOS/ATSC_SubVIs/IIR_SOS_18b_dc_reg.vi"/>
+			<Item Name="IIR_block_fast18_reg_rnd.vi" Type="VI" URL="../../Shared/sos/ATSC_SubVIs/IIR_block_fast18_reg_rnd.vi"/>
+			<Item Name="IIR_Coeffs.ctl" Type="VI" URL="../../Shared/sos/Controls/IIR_Coeffs.ctl"/>
+			<Item Name="IIR_SOS_18b_dc_reg.vi" Type="VI" URL="../../Shared/sos/ATSC_SubVIs/IIR_SOS_18b_dc_reg.vi"/>
 			<Item Name="LIA 5783 Getting Started FPGA.lvbitx" Type="Document" URL="../FPGA Bitfiles/LIA 5783 Getting Started FPGA.lvbitx"/>
 			<Item Name="LIA Digital PLL FPGA.vi" Type="VI" URL="../../Debugging/FPGA/LIA Digital PLL FPGA.vi"/>
 			<Item Name="LIA Test Frequency Shift.lvbitx" Type="Document" URL="../FPGA Bitfiles/LIA Test Frequency Shift.lvbitx"/>
@@ -6949,10 +6946,10 @@ Output WaveformActual Number of Elements=4096;ReadArbs=1;WriteArbs=1;Implementat
 			<Item Name="LIA Vrms2 to dBm Real.vi" Type="VI" URL="../../Debugging/SubVIs/LIA Vrms2 to dBm Real.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="LVDFD.dll" Type="Document" URL="/&lt;resource&gt;/LVDFD.dll"/>
-			<Item Name="mul_18x18_dc_ht_rnd.vi" Type="VI" URL="../../Shared/SOS/ATSC_SubVIs/mul_18x18_dc_ht_rnd.vi"/>
-			<Item Name="mul_add_18_dc_rnd.vi" Type="VI" URL="../../Shared/SOS/ATSC_SubVIs/mul_add_18_dc_rnd.vi"/>
-			<Item Name="mul_add_24_dc_ht_reg.vi" Type="VI" URL="../../Shared/SOS/ATSC_SubVIs/mul_add_24_dc_ht_reg.vi"/>
-			<Item Name="mul_add_24_dc_ht_rnd.vi" Type="VI" URL="../../Shared/SOS/ATSC_SubVIs/mul_add_24_dc_ht_rnd.vi"/>
+			<Item Name="mul_18x18_dc_ht_rnd.vi" Type="VI" URL="../../Shared/sos/ATSC_SubVIs/mul_18x18_dc_ht_rnd.vi"/>
+			<Item Name="mul_add_18_dc_rnd.vi" Type="VI" URL="../../Shared/sos/ATSC_SubVIs/mul_add_18_dc_rnd.vi"/>
+			<Item Name="mul_add_24_dc_ht_reg.vi" Type="VI" URL="../../Shared/sos/ATSC_SubVIs/mul_add_24_dc_ht_reg.vi"/>
+			<Item Name="mul_add_24_dc_ht_rnd.vi" Type="VI" URL="../../Shared/sos/ATSC_SubVIs/mul_add_24_dc_ht_rnd.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
