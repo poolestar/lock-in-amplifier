@@ -5437,25 +5437,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="IIR_block_fast18_reg_rnd.vi" Type="VI" URL="../FPGA/IIR_block_fast18_reg_rnd.vi"/>
-				<Item Name="IIR_Coeffs.ctl" Type="VI" URL="../../Shared/SOS/Controls/IIR_Coeffs.ctl"/>
-				<Item Name="IIR_SOS_18b_dc_reg.vi" Type="VI" URL="../FPGA/IIR_SOS_18b_dc_reg.vi"/>
-				<Item Name="LIA 2SOS.vi" Type="VI" URL="../FPGA/LIA 2SOS.vi"/>
-				<Item Name="LIA 4HF Decimators.vi" Type="VI" URL="../FPGA/LIA 4HF Decimators.vi"/>
-				<Item Name="LIA 4SOS.vi" Type="VI" URL="../FPGA/LIA 4SOS.vi"/>
-				<Item Name="LIA Decimator0 Enum.ctl" Type="VI" URL="../FPGA/LIA Decimator0 Enum.ctl"/>
-				<Item Name="LIA Decimator1 Enum.ctl" Type="VI" URL="../FPGA/LIA Decimator1 Enum.ctl"/>
-				<Item Name="LIA Digital PLL FPGA.vi" Type="VI" URL="../FPGA/LIA Digital PLL FPGA.vi"/>
-				<Item Name="LIA IQ Cluster to IQ.vi" Type="VI" URL="../FPGA/LIA IQ Cluster to IQ.vi"/>
-				<Item Name="LIA IQ to IQ Cluster.vi" Type="VI" URL="../FPGA/LIA IQ to IQ Cluster.vi"/>
-				<Item Name="Lock-In Amplifier Example FPGA.lvlib" Type="Library" URL="../../Shared/lib/fpga/Lock-In Amplifier Example FPGA.lvlib"/>
-				<Item Name="mul_18x18_dc_ht_rnd.vi" Type="VI" URL="../FPGA/mul_18x18_dc_ht_rnd.vi"/>
-				<Item Name="mul_add_18_dc_rnd.vi" Type="VI" URL="../FPGA/mul_add_18_dc_rnd.vi"/>
-				<Item Name="mul_add_24_dc_ht_reg.vi" Type="VI" URL="../FPGA/mul_add_24_dc_ht_reg.vi"/>
-				<Item Name="mul_add_24_dc_ht_rnd.vi" Type="VI" URL="../FPGA/mul_add_24_dc_ht_rnd.vi"/>
-				<Item Name="NI PLL IP FPGA.lvlib" Type="Library" URL="../../Shared/_NI PLL IP/FPGA/NI PLL IP FPGA.lvlib"/>
-				<Item Name="xsimk_0EFBEBF2FBC14C9D8ACC94B2504D3B1A.dll" Type="Document" URL="../../Shared/lib/fpga/Private/cic/xsim.dir/cic_0EFBEBF2FBC14C9D8ACC94B2504D3B1A/xsimk_0EFBEBF2FBC14C9D8ACC94B2504D3B1A.dll"/>
-				<Item Name="xsimk_286C3DE52D9440B7A5661489EED6DA06.dll" Type="Document" URL="../../Shared/_NI PLL IP/FPGA/Private/hilbert/xsim.dir/hilbert_286C3DE52D9440B7A5661489EED6DA06/xsimk_286C3DE52D9440B7A5661489EED6DA06.dll"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="LIA Debugging FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
