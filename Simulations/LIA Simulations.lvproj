@@ -6807,8 +6807,6 @@ Output WaveformActual Number of Elements=4096;ReadArbs=1;WriteArbs=1;Implementat
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="AI Trigger Type.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2018/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/Controls/AI Trigger Type.ctl"/>
-				<Item Name="AO Channel.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2018/examples/FlexRIO/IO Modules/NI 5783/NI 5783 - Getting Started/Controls/AO Channel.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="LIA 5783 Getting Started FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">

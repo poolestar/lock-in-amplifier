@@ -5436,6 +5436,26 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
+				<Item Name="2xsos.vi" Type="VI" URL="../FPGA/2xsos.vi"/>
+				<Item Name="4xhf.vi" Type="VI" URL="../FPGA/4xhf.vi"/>
+				<Item Name="4xsos.vi" Type="VI" URL="../FPGA/4xsos.vi"/>
+				<Item Name="digital_pll_fpga.vi" Type="VI" URL="../FPGA/digital_pll_fpga.vi"/>
+				<Item Name="iir_block_fast18_reg_rnd.vi" Type="VI" URL="../FPGA/iir_block_fast18_reg_rnd.vi"/>
+				<Item Name="iir_coefficients.ctl" Type="VI" URL="../../Shared/sos/Controls/iir_coefficients.ctl"/>
+				<Item Name="iir_sos_18b_dc_reg2.vi" Type="VI" URL="../FPGA/iir_sos_18b_dc_reg2.vi"/>
+				<Item Name="iq cluster to iq.vi" Type="VI" URL="../FPGA/iq cluster to iq.vi"/>
+				<Item Name="iq to iq cluster.vi" Type="VI" URL="../FPGA/iq to iq cluster.vi"/>
+				<Item Name="lia_decimator0_enum.ctl" Type="VI" URL="../FPGA/lia_decimator0_enum.ctl"/>
+				<Item Name="lia_decimator1_enum.ctl" Type="VI" URL="../FPGA/lia_decimator1_enum.ctl"/>
+				<Item Name="Lock-In Amplifier Example FPGA.lvlib" Type="Library" URL="../../Shared/lib/fpga/Lock-In Amplifier Example FPGA.lvlib"/>
+				<Item Name="mul_18x18_dc_ht_rnd.vi" Type="VI" URL="../FPGA/mul_18x18_dc_ht_rnd.vi"/>
+				<Item Name="mul_add_18_dc_rnd.vi" Type="VI" URL="../FPGA/mul_add_18_dc_rnd.vi"/>
+				<Item Name="mul_add_24_dc_ht_reg.vi" Type="VI" URL="../FPGA/mul_add_24_dc_ht_reg.vi"/>
+				<Item Name="mul_add_24_dc_ht_rnd.vi" Type="VI" URL="../FPGA/mul_add_24_dc_ht_rnd.vi"/>
+				<Item Name="NI PLL IP FPGA.lvlib" Type="Library" URL="../../Shared/_NI PLL IP/FPGA/NI PLL IP FPGA.lvlib"/>
+				<Item Name="xsimk_0EFBEBF2FBC14C9D8ACC94B2504D3B1A.dll" Type="Document" URL="../../Shared/lib/fpga/Private/cic/xsim.dir/cic_0EFBEBF2FBC14C9D8ACC94B2504D3B1A/xsimk_0EFBEBF2FBC14C9D8ACC94B2504D3B1A.dll"/>
+				<Item Name="xsimk_286C3DE52D9440B7A5661489EED6DA06.dll" Type="Document" URL="../../Shared/_NI PLL IP/FPGA/Private/hilbert/xsim.dir/hilbert_286C3DE52D9440B7A5661489EED6DA06/xsimk_286C3DE52D9440B7A5661489EED6DA06.dll"/>
+				<Item Name="xsimk_BF5B10393ED3427C9D4F112AC08E005B.dll" Type="Document" URL="../../Shared/lib/fpga/Public/CIC FXPi18x1/CIC Compiler/xsim.dir/CIC_Compiler_1_BF5B10393ED3427C9D4F112AC08E005B/xsimk_BF5B10393ED3427C9D4F112AC08E005B.dll"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="LIA Debugging FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -10021,6 +10041,10 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
+				<Item Name="digital_pll_fpga.vi" Type="VI" URL="../FPGA/digital_pll_fpga.vi"/>
+				<Item Name="Lock-In Amplifier Example FPGA.lvlib" Type="Library" URL="../../Shared/lib/fpga/Lock-In Amplifier Example FPGA.lvlib"/>
+				<Item Name="xsimk_0EFBEBF2FBC14C9D8ACC94B2504D3B1A.dll" Type="Document" URL="../../Shared/lib/fpga/Private/cic/xsim.dir/cic_0EFBEBF2FBC14C9D8ACC94B2504D3B1A/xsimk_0EFBEBF2FBC14C9D8ACC94B2504D3B1A.dll"/>
+				<Item Name="xsimk_BF5B10393ED3427C9D4F112AC08E005B.dll" Type="Document" URL="../../Shared/lib/fpga/Public/CIC FXPi18x1/CIC Compiler/xsim.dir/CIC_Compiler_1_BF5B10393ED3427C9D4F112AC08E005B/xsimk_BF5B10393ED3427C9D4F112AC08E005B.dll"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="LIA Example FPGA" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
