@@ -12,7 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="iir_block_fast18_reg_rnd.vi" Type="VI" URL="../SubVIs/iir_block_fast18_reg_rnd.vi"/>
 		<Item Name="iir_coefficients.ctl" Type="VI" URL="../Controls/iir_coefficients.ctl"/>
-		<Item Name="IIR_SOS_18b_dc_reg.vi" Type="VI" URL="../SubVIs/IIR_SOS_18b_dc_reg.vi"/>
+		<Item Name="iir_sos_18b_dc_reg.vi" Type="VI" URL="../SubVIs/iir_sos_18b_dc_reg.vi"/>
 		<Item Name="mul_18x18_dc_ht_rnd.vi" Type="VI" URL="../SubVIs/mul_18x18_dc_ht_rnd.vi"/>
 		<Item Name="mul_add_18_dc_rnd.vi" Type="VI" URL="../SubVIs/mul_add_18_dc_rnd.vi"/>
 		<Item Name="mul_add_24_dc_ht_reg.vi" Type="VI" URL="../SubVIs/mul_add_24_dc_ht_reg.vi"/>
